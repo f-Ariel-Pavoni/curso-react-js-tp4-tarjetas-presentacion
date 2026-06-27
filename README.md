@@ -57,23 +57,41 @@ Luego abrir en el navegador la dirección indicada por Vite (generalmente `http:
 
 ```text
 tarjetas-presentacion/
+│
 ├── public/
 │   ├── assets/
-│   │   └── screenshots/
-│   │       ├── escritorio.png
-│   │       └── mobile.png
-│   └── favicon.svg
+│      └── screenshots/
+│         └── mobile.png
+│
 │
 ├── src/
+│
 │   ├── components/
-│   │   ├── Tarjeta.jsx
-│   │   ├── Tarjeta.css
-│   │   ├── ContenedorTarjetas.jsx
-│   │   └── ContenedorTarjetas.css
-│   │
+│   │   ├── Header/
+│   │   │   ├── Header.jsx
+│   │   │   └── Header.css
+│   │   │
+│   │   ├── Footer/
+│   │   │   ├── Footer.jsx
+│   │   │   └── Footer.css
+│   │   │
+│   │   ├── Tarjeta/
+│   │   │   ├── Tarjeta.jsx
+│   │   │   └── Tarjeta.css
+│   │   │
+│   │   └── ContenedorTarjetas/
+│   │       ├── ContenedorTarjetas.jsx
+│   │       └── ContenedorTarjetas.css
+│
+│   ├── data/
+│   │   └── tarjetas.js
+│
+│   ├── styles/
+│   │   ├── index.css
+│   │   └── variables.css
+│
 │   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   └── main.jsx
 │
 ├── index.html
 ├── package.json
@@ -88,7 +106,11 @@ tarjetas-presentacion/
 
 ### Vistas de escritorio y mobile
 
-![Captura de escritorio](./public/assets/screenshots/mobile.png)
+![MacBook](./public/assets/screenshots/MacBook_Pro.jpeg)
+
+![iPad](./public/assets/screenshots/iPad.jpeg)
+
+![iPhone](./public/assets/screenshots/iPhone_13Pro_Max.jpeg)
 
 ---
 
