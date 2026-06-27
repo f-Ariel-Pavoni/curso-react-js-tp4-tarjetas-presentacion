@@ -106,11 +106,11 @@ tarjetas-presentacion/
 
 ### Vistas de escritorio y mobile
 
-![MacBook](./public/assets/screenshots/MacBook_Pro.jpeg)
+<img src="./public/assets/screenshots/MacBook_Pro.jpeg" width="600" />
 
-![iPad](./public/assets/screenshots/iPad.jpeg)
+<img src="./public/assets/screenshots/iPad.jpeg" width="600" />
 
-![iPhone](./public/assets/screenshots/iPhone_13Pro_Max.jpeg)
+<img src="./public/assets/screenshots/iPhone_13Pro_Max.jpeg" width="600" />
 
 ---
 
